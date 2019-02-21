@@ -48,9 +48,9 @@ if (cluster.isMaster) {
         });
     });
 
-    app.get('/test-image-tag.png', function(req, res) {
-        res.status(201);
-    });
+    // app.get('/test-image-tag.png', function(req, res) {
+    //     res.status(201);
+    // });
 
     app.post('/signup', function(req, res) {
         var item = {
