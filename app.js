@@ -46,7 +46,7 @@ if (cluster.isMaster) {
   });
 
   app.get('/test-image-tag.png', function(req, res) {
-    res.status(201);
+    res.status(201).end();
   });
 
   app.post('/signup', function(req, res) {
